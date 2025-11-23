@@ -53,7 +53,6 @@ export default function TollHistory() {
                   ? entry.date
                   : new Date(entry.date)
                 : null
-              console.log(entry.date)
 
               let sumOfTollFees = entry.entries.reduce(
                 (acc, current) =>
@@ -86,8 +85,6 @@ export default function TollHistory() {
 
                   {entry.entries.map((e, _j) => {
                     const { icon, vehicleName } = formatVehicle(e.vehicle)
-
-                    // Use the individual entry's timestamp for per-entry display
                     const perEntryDate = e.date
                       ? e.date instanceof Date
                         ? e.date
@@ -209,8 +206,6 @@ function groupVehiclesPerDate(entries: TollEntry[]): {
     // use YYYY-MM-DD as the grouping key; unknown entries use 'unknown'
     const key = entryDate ? entryDate.toISOString().slice(0, 10) : 'unknown'
 
-    console.log(key)
-
     if (!map.has(key)) map.set(key, [])
     map.get(key)!.push(entry)
   }
@@ -222,7 +217,6 @@ function groupVehiclesPerDate(entries: TollEntry[]): {
     return { date, entries: items }
   })
 
-  console.log(groups)
   groups.sort((a, b) => {
     if (!a.date) return 1
     if (!b.date) return -1
