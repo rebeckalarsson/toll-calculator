@@ -43,12 +43,14 @@ export default function Home({ loaderData }: Route.ComponentProps) {
   }, [userData])
 
   return (
-    <div className="home-page-container">
-      <Navigation />
-      <div className="area-content-container">
-        <Outlet />
+    <>
+      <div className="home-page-container">
+        <Navigation />
+        <div className="area-content-container">
+          <Outlet />
+        </div>
       </div>
       <Footer />
-    </div>
+    </>
   )
 }

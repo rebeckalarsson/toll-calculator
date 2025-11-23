@@ -1,11 +1,13 @@
 .home-page-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   width: 100%;
   margin: 0 auto;
   max-width: 1200px;
-  height: 100vh;
+  height: 100%;
   background-color: var(--color-gray-50);
+  margin-bottom: 55px;
 }
 
 .start-page-container {
@@ -70,7 +72,7 @@
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   background-color: var(--color-blue);
   color: var(--color-white);
