@@ -1,0 +1,157 @@
+[
+  {
+    "id": 1,
+    "firstName": "Thain",
+    "lastName": "Canas",
+    "email": "tcanas0@webs.com",
+    "vehicles": [
+      {
+        "type": "diplomat",
+        "registration": "ABC123"
+      },
+      {
+        "type": "foreign",
+        "registration": "XYZ789"
+      },
+      {
+        "vehicle": "tractor",
+        "registration": "ABC123"
+      },
+      {
+        "vehicle": "emergency",
+        "registration": "ABC456"
+      },
+      {
+        "vehicle": "car",
+        "registration": "ABB788"
+      }
+    ],
+    "entries": [
+      {
+        "vehicle": "car",
+        "registration": "ABB788",
+        "date": "2025-02-26T05:28:54Z"
+      },
+      {
+        "vehicle": "diplomat",
+        "registration": "XYZ789",
+        "date": "2025-02-26T05:28:54Z"
+      },
+      {
+        "vehicle": "foreign",
+        "registration": "XYZ789",
+        "date": "2025-11-09T12:33:40Z"
+      },
+      {
+        "vehicle": "tractor",
+        "registration": "ABC123",
+        "date": "2025-03-15T19:53:44Z"
+      },
+      {
+        "vehicle": "emergency",
+        "registration": "ABC456",
+        "date": "2025-07-11T21:58:11Z"
+      },
+      {
+        "vehicle": "car",
+        "registration": "ABB788",
+        "date": "2025-07-11T21:58:11Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "firstName": "Lynelle",
+    "lastName": "Tewelson",
+    "email": "ltewelson1@amazon.co.uk",
+    "vehicles": [
+      {
+        "type": "car",
+        "registration": "ABC123"
+      },
+      {
+        "type": "motorbike",
+        "registration": "XYZ789"
+      }
+    ],
+    "entries": [
+      {
+        "vehicle": "diplomat",
+        "registration": "ABC123",
+        "date": "2025-02-26T05:28:54Z"
+      },
+      {
+        "vehicle": "motorbike",
+        "registration": "XYZ789",
+        "date": "2025-11-09T12:33:40Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "firstName": "Farleigh",
+    "lastName": "Achromov",
+    "email": "fachromov2@newsvine.com",
+    "vehicles": [
+      {
+        "vehicle": "tractor",
+        "registration": "ABC123"
+      },
+      {
+        "vehicle": "emergency",
+        "registration": "ABC456"
+      },
+      {
+        "vehicle": "car",
+        "registration": "ABB788"
+      }
+    ],
+    "entries": [
+      {
+        "vehicle": "tractor",
+        "registration": "ABC123",
+        "date": "2025-05-04T20:45:02Z"
+      },
+      {
+        "vehicle": "emergency",
+        "registration": "ABC456",
+        "date": "2025-07-11T21:58:11Z"
+      },
+      {
+        "vehicle": "car",
+        "registration": "ABB788",
+        "date": "2025-06-06T08:08:49Z"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "firstName": "Zacharias",
+    "lastName": "Churcher",
+    "email": "zchurcher3@issuu.com",
+    "vehicles": [
+      {
+        "vehicle": "car",
+        "registration": "ABC123"
+      },
+      {
+        "vehicle": "military",
+        "registration": "ABC456"
+      }
+    ],
+    "entries": [
+      {
+        "vehicle": "car",
+        "date": "2025-11-17T06:27:22Z"
+      },
+      {
+        "vehicle": "military",
+        "date": "2025-03-15T19:53:44Z"
+      },
+      {
+        "vehicle": "military",
+        "date": "2025-07-03T21:28:19Z"
+      }
+    ]
+  }
+]
